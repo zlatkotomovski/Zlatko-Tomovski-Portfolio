@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV template</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">CURRICULUM VITAE</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ABOUT</a>
+        <a href="#resume" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">RESUME</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="./images/cover.png" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.facebook.com/zlatko.tomovski" target="#Facebook">
+              <i data-feather="facebook"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.instagram.com/tomovskizlatko/" target="#Instagram">
+             <i data-feather="instagram"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="#twitter" target="_blank">
+             <i data-feather="twitter"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/zlatko-tomovski-37b44818/" target="#Linkedin">
+             <i data-feather="linkedin"></i>
+          </a>
+        </div>
+        <!--CV DOWNLOAD BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="./resume.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="file:///C:/Python/CVtemplate/index.html" download="resume.pdf">
+            <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left download-text">DOWNLOAD CV</span>
+          </a>
+        </div>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">CURRICULUM VITAE</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">RESUME</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <p style="font-style: italic; font-size:x-large;">"The mind is the limit. When you face your struggles, you overcome them."</p>
+            <h1>Zlatko Tomovski (38)</h2>
+            <h2>Python Developer</h3>
+            <p></p>
+          </div>
+
+          <!--ABOUT SECTION-->
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+            <p class="w3-margin-top-2"> 
+              My career is marked by a consistent drive for excellence and a commitment to delivering high-quality results.
+              I thrive in fast-paced environments and excel at navigating challenges with creativity and strategic thinking.
+              Whether collaborating with cross-functional teams or leading independent projects,
+              I leverage effective communication and interpersonal skills to foster productive relationships and achieve collective goals.
+            </p>
+            <p class=""> 
+              Known for my adaptability and resourcefulness, I have a demonstrated ability to quickly grasp new concepts and technologies,
+              enabling me to stay ahead of industry trends and drive innovation. I am passionate about continuous learning and strive
+              to enhance my skills through ongoing professional development opportunities.
+            </p>
+            <p class=""> 
+              Driven by a passion for problem-solving and driving business growth, I am committed to making a meaningful impact in Web Development.
+              I am now seeking a new opportunity where I can leverage my expertise and contribute to the success of a forward-thinking organization.
+            </p>
+          </div>
+
+          <!--RESUME-->
+          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RESUME</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <!--EMPLOYMENT HISTORY SECTION-->
+              <h2 class="w3-border-amber">MY EMPLOYMENT HISTORY</h2><br>
+              <div class="">
+                <h4>Maintenance Specialist at Reserved Truck Lines</h4>
+                <p>January 2024 - Present</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Communication with driver to establish the issue with the Truck</li>
+                  <li>Arranging repairs for the truck, mobile or in-shop </li>
+                  <li>Comunication with the services for invoice payments</li><br>
+                  <li>My Reference person is the HR manager:</li>
+                  <li>Borkica<br> Phone: +389/76-446-466<br> e-mail: grace@reserveltd.com</li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>Maintenance Specialist at Magnum Freight INC</h4>
+                <p>July 2023 - October 2023 </p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Communication with driver to establish the issue with the Truck</li>
+                  <li>Arranging repairs for the truck, mobile or in-shop</li>
+                  <li>Comunication with the services for invoice payments</li><br>
+                  <li>My Reference person is the Operations Manager:</li>
+                  <li>Igor<br> Phone: +389/71-364-696</li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>Maintenance Specialist at Innfinity Logistics INC</h4>
+                <p> August 2022 - July 2023 </p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Communication with driver to establish the issue with the Truck</li>
+                  <li>Arranging repairs for the truck, mobile or in-shop</li>
+                  <li>Comunication with the services for invoice payments</li><br>
+                  <li>My Reference person is the Operations Manager:</li>
+                  <li>Nikola<br> Phone: +389/70-268-850</li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>Heavy duty truck driver at Kompanija Bominera</h4>
+                <p> April 2021 - August 2022 </p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Load and unload the truck with goods</li>
+                  <li>Making sure that the paperwork is prepared for handing to Customs Service</li><br>
+                  <li>My Reference person is the owner:</li>
+                  <li>Boro<br> Phone: +389/75-279-381</li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>HVAC Technician at Van Hool Macedonia</h4>
+                <p> January 2018 - January 2021 </p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Check and service the HVAC system on buses</li>
+                  <li>Replace any part on the HVAC system if needed</li>
+                  <li>Final inspection on the whole bus before delivery to the client</li><br>
+                  <li>My Reference person is the Team Lider:</li>
+                  <li>Goran<br> Phone: +389/72-309-911</li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>Warehouse/Distribution at Kolid Foods - Koleshino</h4>
+                <p> September 2013 - January 2018 </p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Loading and unloading Heavy duty trucks with goods</li>
+                  <li>Preparing the goods for distribution from an invoice</li>
+                  <li>Distributing the goods to the clients around the whole town</li><br>
+                  <li>My Reference person is the Team Lider:</li>
+                  <li>Ivo<br> Phone: +389/71-239-935</li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>Crane Driver at Mak Still - Dufferco</h4>
+                <p> January 2008 - November 2012 </p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Communication with driver to establish the issue with the Truck</li>
+                  <li>Arranging repairs for the truck, mobile or in-shop</li>
+                  <li>Comunication with the services for invoice payments</li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>System Administrator at Target Cafe</h4>
+                <p> June 2003 - December 2007 </p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Maintenance on the computer system</li>
+                  <li>Maintenance on the network system</li>
+                  <li>Maintenance on the server system</li>
+                </ul>
+              </div>
+            </div>
+
+            <!---EDUCATION SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY EDUCATION</h3>
+                <h4>DMU 8th September - Skopje</h4>
+                <p>September 2000 - May 2004 </p>
+                <h4>University of Kiril and Metodij - Skopje </h4>
+                <p>October 2007 - July 2008 </p>
+            </div>
+
+            <!--SKILLS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY SKILLS</h3>
+              <!--SOFT SKILLS-->
+              <h4>Soft skills</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>I have excelent communication skill and no confidence in front of an audience</li>
+                <li>I have a talent for investigating and researching different processes to offer different improvements and solution for the benefit of the organization </li>
+                <li></li>
+              </ul>
+              <!--TECHNICAL SKILLS-->
+              <h4>Technical skills</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>I have a great experience with MS Office tools</li>
+                  <li>Basic knowledge of Python, SQL and MongoDB</li>
+                  <li>Software and Hardware installation</li>
+                </ul>
+            </div>
+
+            <!--INTERESTS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY HOBBIES AND INTERESTS</h3>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>I love cycling in my free time</li>
+                  <li>I like to play board games with other people</li>
+                </ul>
+            </div>
+          <!--CONTACT SECTION-->
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY CONTACT DETAILS</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Name: Zlatko Tomovski</p>
+              <p>Adress: Anri Barbis 21a, 1040 Skopje, Macedonia</p>
+              <p>Phone number: +38977590345</p>
+              <p>E-mail: zlatkotomovski@gmail.com</p>
+            </div>
+          </div>
+
+        <!--FOOTER-->
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>© 2024 - Zlatko Tomovski</p>
+           <p class="w3-small">This website was made with W3schools Spaces. Make your own free website today!</p>
+          <a class="w3-button w3-round-xxlarge w3-small w3-light-grey" href="https://www.w3schools.com/spaces" target="_blank">Start now</a> 
+        <!-- End footer -->
+        </footer>
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
